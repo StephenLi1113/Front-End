@@ -1,0 +1,167 @@
+/* Main CSS file for the website */
+
+/* Common page styles */
+html {
+	font-family: Arial, Helvetica, sans-serif;
+	background-color: steelblue;
+}
+body {
+	width: 80vw;
+	margin: 0 auto;
+	background-color: white;
+}
+
+/* Page header/banner styles */
+.pg-banner {
+	min-height: 10vh;
+	border-bottom: 5px solid gold;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 1em;
+}
+.pg-banner h1 {
+	margin: 0;
+	padding: 0;
+}
+
+/* h1 styling */
+.pg-banner > h1 > a {
+	color: steelblue;
+	text-decoration: none;
+}
+.pg-banner > h1 > a:hover,
+.pg-banner > h1 > a:active {
+	color: black;
+	text-decoration: none;
+}
+
+/* Primary nav styles */
+.primary-nav {
+	display: flex;
+	justify-content: space-between;
+}
+.primary-nav a {
+	padding: 1em;
+	text-decoration: none;
+	color: #707372;
+	font-weight: bold;
+}
+.primary-nav a:hover,
+.primary-nav a:active {
+	background-color: steelblue;
+	color: white;
+	font-weight: bold;
+}
+a.active {
+	color: maroon;
+}
+
+/* Page main content section styles */
+.pg-main-content {
+	min-height: 60vh;
+	padding: 1em;
+}
+
+/* Page footer styles */
+.pg-footer {
+	height: 10vh;
+	color: white;
+	background-color: black;
+	display: flex;
+	align-items: center;
+	padding: 1em;
+}
+
+/* Form styling */
+form {
+	margin: auto;
+	width: 40vw;
+	display: flex;
+	flex-direction: column;
+}
+form > input {
+	margin: 1em 0;
+	height: 3em;
+	font-size: 1.1em;
+}
+form > input:focus {
+	background-color: lightgoldenrodyellow;
+}
+form > input[type='submit'] {
+	width: 50%;
+	margin: 1em auto;
+	border-radius: 0.5em;
+	background-color: #0984e3;
+	color: white;
+}
+form > input[type='submit']:hover,
+form > input[type='submit']:active {
+	background-color: #048b70;
+	color: white;
+}
+form > input[type='submit']:disabled {
+	background-color: grey;
+	font-style: italic;
+}
+form > input[type='button'] {
+	width: 50%;
+	margin: 1em auto;
+	border-radius: 0.5em;
+	background-color: maroon;
+	color: white;
+}
+form > input[type='button']:hover,
+form > input[type='button']:active {
+	background-color: #e17055;
+	color: black;
+}
+form > textarea {
+	margin: 1em 0;
+	padding: 0.5em;
+	height: 7em;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 1.1em;
+}
+form > textarea:focus {
+	background-color: lightgoldenrodyellow;
+}
+form > a {
+	display: block;
+	width: 50%;
+	margin: 1em auto;
+	padding: 1em;
+	text-align: center;
+	text-decoration: none;
+	background-color: #6c5ce7;
+	color: white;
+	border-radius: 0.5em;
+}
+form > a:hover,
+form > a:active {
+	background-color: maroon;
+}
+
+/* Responsive styles */
+@media screen and (max-width: 1000px) {
+	.pg-banner {
+		flex-direction: column;
+		align-items: center;
+	}
+	.primary-nav {
+		width: 100%;
+	}
+	.pg-footer {
+		justify-content: center;
+	}
+}
+
+@media screen and (max-width: 700px) {
+	.primary-nav {
+		flex-direction: column;
+		align-items: center;
+	}
+	.pg-footer {
+		justify-content: center;
+	}
+}
