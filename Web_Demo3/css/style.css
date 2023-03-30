@@ -1,0 +1,1282 @@
+header, main{
+	min-height: 150px;
+}
+aside{
+	min-height: 200px;
+}
+footer{
+	min-height: 120px;
+}
+body{
+	margin: auto;
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	display: grid;
+	grid-template-columns: repeat(6, 1fr);
+	
+}
+header{
+	min-height: 80px;
+	width:100%;
+	background-color: skyblue;
+	grid-area: 1 / 1 / 2 / -1;
+}
+header h1{
+	margin-left: 10px;
+}
+img{
+	width:25%;
+	float:right;
+}
+
+#secondaryNav a:hover{
+	color:yellow;
+}
+#secondaryNav{
+	background-color: #707372;
+	width: 100%;
+	display: inline-block;
+	padding: 10px 0 10px 0;
+
+	grid-area: 2 / 1 / 3 / -1;
+}
+#secondaryNav a{
+	font-size: 15px;
+	color: white;
+	
+	padding-left: 100px;
+	text-decoration: none;
+	grid-area: 2 / 1 / 3 / -1;
+}
+#secondaryNav li{
+	float: left;
+	list-style-type: none;
+}
+#secondaryNav ul{
+	float: left;
+	padding-right: 10px;
+	margin: 0;
+}
+form{
+	float: right;
+	margin-right: 1%
+}
+
+
+
+
+
+#firstpage main{
+	
+	background-color: khaki;
+	padding: 10px;
+	grid-area: 3 / 1 / 11 / -1;
+	display: grid;
+	grid-template-columns: repeat(5, 1fr);
+}
+#firstpage #simple{
+	background-image: url(../img/imag.png);
+	/*Image source:http://pic1.win4000.com/wallpaper/2020-03-19/5e72cde93b965.jpg*/
+	grid-area: 3 / 1 / 4 / -1;
+}
+#firstpage aside{
+	margin-right: 20%;
+	margin-left: 20%;
+	padding-top: 10%;
+	font-weight: bold;
+}
+#firstpage #content-section{
+	background-color:steelblue;
+	grid-area: 4 / 1 / 5 / -1;
+}
+#firstpage #first{
+	border-style: solid ;
+	border-color: white;
+	min-height: 300px;
+	background-color:pink;
+	grid-area: 5 / 1 / 6 / 4;
+}
+#firstpage #first h3{
+	margin-right: 20%;
+	margin-left: 37%;
+}
+#firstpage #second{
+	border-style: solid;
+	border-color: white;
+	min-height: 300px;
+	background-color:grey;
+	grid-area: 5 / 4 / 6 / -1;
+
+}
+#firstpage #second h3{
+	margin-left: 38%;
+}
+#firstpage #last{
+	min-height: 150px;
+	background-color:green;
+	grid-area: 7 / 1 / 8 / -1;
+}
+#firstpage #a{
+	min-height: 250px;
+	background-color:white;
+	grid-area: 9 / 1 / 10 / 4;
+	display: flex;
+	text-align: center;
+
+}
+#firstpage #a h2{
+	padding-top: 140px;
+	padding-left: 150px;
+}
+
+
+#firstpage #cost{
+	min-height: 300px;
+	background-color:white;
+	grid-area: 9 / 4 / 10 / -1;
+	float: left;
+}
+#firstpage #cost h3{
+	color: blue;
+}
+#firstpage #cost table, th, td{
+	border: 1px solid black;
+	border-bottom: solid thin darkgreen;
+	border-collapse: collapse;
+}
+#firstpage #cost td{
+	padding: 2%;
+}
+#firstpage #cost h4{
+   color:red;
+   font-weight: bold;
+
+}
+#firstpage footer{
+	width:auto;
+	background-color: skyblue;
+	grid-area: 11 / 1 / 14 / 7;
+}
+#firstpage footer #copyright{
+margin-top: 25px;
+}
+#firstpage footer nav{
+	float: right;
+}
+#firstpage #footerNav a{
+	float: left;
+	margin-top: 0px;
+	text-decoration: none;
+	margin-right: 20px;
+
+}
+/*xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx*/
+/*xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx*/
+
+
+
+
+
+
+
+
+
+/*         secondpage         */
+#secondpage main{
+	grid-area: 3 / 1 / 11 / -1;
+	display: grid;
+	grid-template-columns: repeat(5, 1fr);
+	background-color: khaki;
+	padding: 10px;
+}
+
+#secondpage #check{
+	grid-area: 3 / 1 / 8 / 3;
+	background-color: white;
+	margin-top: 0px;
+	float: left;
+}
+
+#secondpage #check h2{
+	padding-left: 70px;
+}
+#secondpage #check p{
+	padding-left: 70px;
+}
+#secondpage #information p{
+	font-size: 18px;
+}
+#secondpage #information{
+	grid-area: 3 / 3 / 8 / -1;
+	background-color: white;
+	color:red;
+}
+#secondpage #cost{
+	grid-area: 8 / 1 / 11 / 3;
+	padding-left: 70px;
+	background-color: white;
+}
+
+#secondpage #attention{
+	color:red;
+	grid-area: 8 / 3 / 11 / -1;
+	background-color: white;
+}
+#secondpage #attention p{
+	font-size: 18px;
+}
+#secondpage footer{
+
+	width:auto;
+	background-color: skyblue;
+	grid-area: 10 / 1 / 11 / 7;
+}
+#secondpage footer nav{
+	float: right;
+}
+
+#secondpage footer #copyright{
+margin-top: 25px;
+}
+#secondpage #footerNav a{
+	float: left;
+	text-decoration: none;
+	margin-right: 20px;
+
+}
+
+
+
+
+
+/*  Thirdpage            */
+#thirdpage main{
+	grid-area: 3 / 1 / 11 / -1;
+	display: grid;
+	grid-template-columns: repeat(5, 1fr);
+	background-color: khaki;
+	padding: 10px;
+}
+
+#thirdpage #imag2{
+	grid-area: 3 / 1 / 7 / 3;
+	width: 80%;
+	padding-right: 50px;
+	margin-top: 130px;
+	margin-bottom: 0px;
+}
+#thirdpage #imag3{
+	grid-area: 7 / 1 / 10 / 3;
+	width: 80%;
+	margin-top: 0px;
+	padding-right: 50px;
+}
+
+#thirdpage #tra{
+	
+	border-style: solid;
+	border-color: lightgreen;
+	grid-area: 3 / 3 / 5 / -1;
+	height: 250px;
+	background-color: white;
+}
+#thirdpage #tra p{
+	text-align: center;
+	display: flex;
+	margin-left: 10px;
+	margin-right: 10px;
+	font-size: 20px;
+}
+
+
+#thirdpage #wild{
+	border-style: solid;
+	border-color: orange;
+	grid-area: 5 / 3 / 7 / -1;
+	height: 290px;
+	background-color: white;
+}
+#thirdpage #wild p{
+	text-align: center;
+	display: flex;
+	margin-left: 10px;
+	margin-right: 10px;
+	font-size: 20px;
+}
+
+#thirdpage #date{
+
+	border-style: solid;
+	border-color: red;
+	grid-area: 7 / 3 / 10 / -1;
+	height:340px;
+	background-color: white;
+}
+#thirdpage #date p{
+	text-align: center;
+	display: flex;
+	margin-left: 30%;
+	margin-right: 10px;
+	font-size: 18px;
+}
+#thirdpage #date h4{
+	color:red;
+	margin-left: 30px;
+}
+#thirdpage footer{
+	width:auto;
+	background-color: skyblue;
+	grid-area: 11 / 1 / 12 / 7;
+	
+}
+#thirdpage footer nav{
+	float: right;
+}
+#thirdpage footer #copyright{
+margin-top: 25px;
+}
+#thirdpage #footerNav a{
+	float: left;
+	text-decoration: none;
+	margin-right: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*   laptop */
+@media screen and (max-width: 1500px){
+	header{
+	min-height: 80px;
+	width:100%;
+	background-color: skyblue;
+	grid-area: 1 / 1 / 2 / -1;
+}
+header h1{
+	margin-left: 10px;
+}
+img{
+	width:25%;
+	float:right;
+}
+
+#secondaryNav a:hover{
+	color:yellow;
+}
+#secondaryNav{
+	background-color: #707372;
+	width: 100%;
+	display: inline-block;
+	padding: 10px 0 10px 0;
+	grid-area: 2 / 1 / 3 / -1;
+}
+#secondaryNav a{
+	font-size: 15px;
+	color: white;
+	padding-left: 100px;
+	text-decoration: none;
+	grid-area: 2 / 1 / 3 / -1;
+}
+#secondaryNav li{
+	float: left;
+	list-style-type: none;
+}
+#secondaryNav ul{
+	float: left;
+	padding-right: 10px;
+	margin: 0;
+}
+form{
+	float: right;
+	margin-right: 1%
+}
+
+#firstpage main{
+	
+	background-color: khaki;
+	padding: 10px;
+	grid-area: 3 / 1 / 11 / -1;
+	display: grid;
+	grid-template-columns: repeat(5, 1fr);
+}
+#simple{
+	background-image: url(../img/imag.png);
+	/*Image source:http://pic1.win4000.com/wallpaper/2020-03-19/5e72cde93b965.jpg*/
+	grid-area: 3 / 1 / 4 / -1;
+}
+aside{
+	margin-right: 20%;
+	margin-left: 20%;
+	padding-top: 10%;
+	font-weight: bold;
+}
+#content-section{
+	background-color:steelblue;
+	grid-area: 4 / 1 / 5 / -1;
+}
+#first{
+	border-style: solid ;
+	border-color: white;
+	min-height: 300px;
+	background-color:pink;
+	grid-area: 5 / 1 / 6 / 4;
+}
+#first h3{
+	margin-right: 20%;
+	margin-left: 37%;
+}
+#second{
+	border-style: solid;
+	border-color: white;
+	min-height: 300px;
+	background-color:grey;
+	grid-area: 5 / 4 / 6 / -1;
+
+}
+#second h3{
+	margin-left: 38%;
+}
+#last{
+	min-height: 150px;
+	background-color:green;
+	grid-area: 7 / 1 / 8 / -1;
+}
+#firstpage #a{
+	min-height: 250px;
+	background-color:white;
+	grid-area: 9 / 1 / 10 / 4;
+}
+#firstpage #a h2{
+	color: skyblue;
+}
+#firstpage #cost{
+	min-height: 300px;
+	background-color:white;
+	grid-area: 9 / 4 / 10 / -1;
+	float: left;
+}
+#firstpage #cost h3{
+	color: blue;
+}
+#firstpage #cost table, th, td{
+	border: 1px solid black;
+	border-bottom: solid thin darkgreen;
+	border-collapse: collapse;
+}
+#firstpage #cost td{
+	padding: 2%;
+}
+#firstpage #cost h4{
+   color:red;
+   font-weight: bold;
+
+}
+#firstpage footer{
+	width:auto;
+	background-color: skyblue;
+	grid-area: 12 / 1 / 14 / -1;
+}
+#firstpage footer nav{
+	float: right;
+}
+#firstpage #footerNav a{
+	float: left;
+	text-decoration: none;
+	margin-right: 20px;
+}
+
+
+/*          Secondpage          */
+
+#secondpage main{
+	grid-area: 3 / 1 / 11 / -1;
+	display: grid;
+	grid-template-columns: repeat(5, 1fr);
+	background-color: khaki;
+	padding: 10px;
+}
+
+#secondpage #check{
+	grid-area: 3 / 1 / 8 / 3;
+	background-color: white;
+	margin-top: 0px;
+	float: left;
+}
+
+#secondpage #check h1{
+	padding-left: 70px;
+}
+#secondpage #check p{
+	padding-left: 70px;
+}
+#secondpage #information p{
+	font-size: 18px;
+}
+#secondpage #information{
+	grid-area: 3 / 3 / 8 / -1;
+	background-color: white;
+	color:red;
+}
+#secondpage #cost{
+	grid-area: 8 / 1 / 11 / 3;
+	padding-left: 70px;
+	background-color: white;
+}
+
+#secondpage #attention{
+	color:red;
+	grid-area: 8 / 3 / 11 / -1;
+	background-color: white;
+}
+#secondpage #attention p{
+	font-size: 18px;
+}
+#secondpage footer{
+	width:100%;
+	background-color: skyblue;
+	grid-area: 10 / 1 / 11 / 7;
+}
+#secondpage footer nav{
+	float: right;
+}
+#secondpage #footerNav a{
+	float: left;
+	text-decoration: none;
+	margin-right: 20px;
+
+}
+
+
+
+
+/*  Thirdpage            */
+#thirdpage main{
+	grid-area: 3 / 1 / 11 / -1;
+	display: grid;
+	grid-template-columns: repeat(5, 1fr);
+	background-color: khaki;
+	padding: 10px;
+}
+
+#thirdpage #imag2{
+	grid-area: 3 / 1 / 6 / 3;
+	width: 80%;
+	margin: 0px;
+	padding-right: 50px;
+	height: 300px;
+	margin-top: 100px;
+}
+#thirdpage #imag3{
+	padding-top: 0px;
+	grid-area: 6 / 1 / 10 / 3;
+	width: 80%;
+	padding-right: 70px;
+	height: 300px;
+	margin-top: 50px;
+}
+
+#thirdpage #tra{
+	
+	border-style: solid;
+	border-color: lightgreen;
+	grid-area: 3 / 3 / 5 / -1;
+	height: 350px;
+	background-color: white;
+}
+#thirdpage #tra p{
+	text-align: center;
+	display: flex;
+	margin-left: 10px;
+	margin-right: 10px;
+	font-size: 20px;
+}
+
+
+#thirdpage #wild{
+	border-style: solid;
+	border-color: orange;
+	grid-area: 5 / 3 / 7 / -1;
+	height: 330px;
+	background-color: white;
+}
+#thirdpage #wild p{
+	text-align: center;
+	display: flex;
+	margin-left: 10px;
+	margin-right: 10px;
+	font-size: 20px;
+}
+
+#thirdpage #date{
+	border-style: solid;
+	border-color: red;
+	grid-area: 7 / 3 / 10 / -1;
+	height:360px;
+	background-color: white;
+}
+#thirdpage #date p{
+	text-align: center;
+	display: flex;
+	margin-left: 30%;
+	margin-right: 10px;
+	font-size: 18px;
+}
+#thirdpage #date h4{
+	color:red;
+	margin-left: 30px;
+}
+
+
+}
+
+
+
+/*Tablet*/
+@media screen and (max-width: 1200px){
+#secondaryNav a:hover{
+	color: yellow;
+}
+#secondaryNav{
+	background-color: #707372;
+	width: 100%;
+	display: inline-block;
+	padding: 10px 0 10px 0;
+
+	grid-area: 2 / 1 / 3 / -1;
+}
+#secondaryNav a{
+	font-size: 15px;
+	color: white;
+	margin-left: 20px;
+	text-decoration: none;
+	grid-area: 2 / 1 / 3 / -1;
+}
+#secondaryNav li{
+	float: left;
+	list-style-type: none;
+}
+#secondaryNav ul{
+	float: left;
+	padding-right: 10px;
+	margin: 0;
+}
+form{
+	float: right;
+	margin-right: 1%
+}
+
+#firstpage main{
+	background-color: khaki;
+	padding: 10px;
+	grid-area: 3 / 1 / 10 / -1;
+	display: grid;
+	grid-template-columns: repeat(5, 1fr);
+}
+#firstpage #simple{
+	background-image: url(../img/imag.png);
+	/*Image source:http://pic1.win4000.com/wallpaper/2020-03-19/5e72cde93b965.jpg*/
+	grid-area: 3 / 1 / 4 / -1;
+}
+#firstpage aside{
+	display: flex;
+	margin-right: 20%;
+	margin-left: 20%;
+	padding-top: 10%;
+	font-weight: bold;
+	text-align: center;
+}
+#firstpage #content-section{
+	border-style: solid;
+	border-color: white;
+	border-width: 2px;
+	background-color:steelblue;
+	grid-area: 4 / 1 / 5 / -1;
+}
+#firstpage #content-section h1{
+	margin-left: 10px;
+}
+#firstpage #first{
+	border-style: solid ;
+	border-color: white;
+	min-height: 240px;
+	background-color:pink;
+	grid-area: 5 / 1 / 6 / -1;
+}
+#firstpage #first h3{
+	margin-right: 20%;
+	margin-left: 37%;
+}
+#firstpage #second{
+	border-style: solid;
+	border-color: white;
+	min-height: 250px;
+	background-color:grey;
+	grid-area: 6 / 1 / 7 / -1;
+
+}
+#firstpage #second h3{
+	margin-left: 38%;
+}
+#firstpage #last{
+	min-height: 150px;
+	background-color:green;
+	grid-area: 7 / 1 / 8 / -1;
+}
+#firstpage #last h3{
+	margin-left: 10px;
+}
+#firstpage #a{
+	min-height: 250px;
+	background-color:white;
+	grid-area: 9 / 1 / 10 / 4;
+
+}
+#firstpage #a h2{
+	padding-left: 40px;
+	color: skyblue;
+}
+
+#firstpage #cost{
+	min-height: 300px;
+	background-color:white;
+	grid-area: 9 / 4 / 10 / -1;
+	float: left;
+}
+#firstpage #cost h3{
+	color: blue;
+}
+#firstpage #cost table, th, td{
+	border: 1px solid black;
+	border-bottom: solid thin darkgreen;
+	border-collapse: collapse;
+}
+#firstpage #cost td{
+	padding: 2%;
+}
+#firstpage #cost h4{
+   color:red;
+   font-weight: bold;
+
+}
+#firstpage footer{
+	width:100%;
+	background-color: skyblue;
+	grid-area: 10 / 1 / 11 / 7;
+}
+#firstpage footer nav{
+	float: right;
+}
+#firstpage #footerNav a{
+	float: left;
+	text-decoration: none;
+	margin-right: 20px;
+
+}
+
+
+
+/*      Secondpage        */
+#secondpage main{
+	grid-area: 3 / 1 / 11 / -1;
+	display: grid;
+	grid-template-columns: repeat(5, 1fr);
+	background-color: khaki;
+	padding: 10px;
+}
+
+#secondpage #check{
+	grid-area: 3 / 1 / 8 / 3;
+	background-color: white;
+	margin-top: 0px;
+	float: left;
+}
+
+#secondpage #check h1{
+	padding-left: 70px;
+}
+#secondpage #check p{
+	padding-left: 70px;
+}
+#secondpage #information p{
+	font-size: 18px;
+}
+#secondpage #information{
+	grid-area: 3 / 3 / 8 / -1;
+	background-color: white;
+	color:red;
+}
+#secondpage #cost{
+	grid-area: 8 / 1 / 11 / 3;
+	padding-left: 70px;
+	background-color: white;
+}
+
+#secondpage #attention{
+	color:red;
+	grid-area: 8 / 3 / 11 / -1;
+	background-color: white;
+}
+#secondpage #attention p{
+	font-size: 18px;
+}
+
+
+
+
+
+/*                   Secondpage               */
+#secondpage main{
+	grid-area: 3 / 1 / 11 / -1;
+	display: grid;
+	grid-template-columns: repeat(5, 1fr);
+	background-color: khaki;
+	padding: 10px;
+}
+
+#secondpage #check {
+	grid-area: 3 / 1 / 8 / 3;
+	padding-left: 0px;
+	padding-top: 60px;
+}
+#secondpage #information{
+	grid-area: 3 / 3 / 8 / -1;
+	background-color: white;
+	color:red;
+	padding-top: 60px;
+}
+#secondpage #cost{
+	grid-area: 8 / 1 / 9 / -1;
+	padding-left: 50px;
+	background-color: white;
+	padding-top: 60px;
+}
+
+#secondpage #attention{
+	color:red;
+	padding-top: 50px;
+	grid-area: 9 / 1 / 11 / -1;
+	background-color: white;
+	padding-left: 50px;
+}
+
+ 
+/*      Thirdpage            */
+#thirdpage main{
+	grid-area: 3 / 1 / 11 / -1;
+	display: grid;
+	grid-template-columns: repeat(7, 1fr);
+	background-color: khaki;
+	padding: 10px;
+}
+
+#thirdpage  #imag2{
+	margin: 0px;
+	grid-area: 10 / 1 / 11 / 4;
+	width: 300px;
+	height: 200px;
+	padding-left: 70px;
+}
+#thirdpage  #imag3{
+	margin:0px;
+	grid-area: 10 / 5 / 11 / -1;
+	width: 300px;
+	height: 200px;
+	padding-left: 40px;
+}
+
+#thirdpage #tra{
+	
+	border-style: solid;
+	border-color: lightgreen;
+	grid-area: 3 / 1 / 5 / -1;
+	height: 250px;
+	background-color: white;
+}
+#thirdpage #tra p{
+	text-align: center;
+	display: flex;
+	margin-left: 10px;
+	margin-right: 10px;
+	font-size: 20px;
+}
+
+
+#thirdpage #wild{
+	border-style: solid;
+	border-color: orange;
+	grid-area: 5 / 1 / 7 / -1;
+	height: 290px;
+	background-color: white;
+}
+#thirdpage #wild p{
+	text-align: center;
+	display: flex;
+	margin-left: 10px;
+	margin-right: 10px;
+	font-size: 20px;
+}
+
+#thirdpage #date{
+	border-style: solid;
+	border-color: red;
+	grid-area: 7 / 1 / 10 / -1;
+	height:340px;
+	background-color: white;
+}
+#thirdpage #date p{
+	text-align: center;
+	display: flex;
+	margin-left: 30%;
+	margin-right: 10px;
+	font-size: 18px;
+}
+#thirdpage #date h4{
+	color:red;
+	margin-left: 30px;
+}
+#thirdpage footer{
+	width:100%;
+	background-color: skyblue;
+	grid-area: 11 / 1 / 12 / 7;
+}
+#thirdpage footer nav{
+	float: right;
+}
+#thirdpage #footerNav a{
+	float: left;
+	text-decoration: none;
+	margin-right: 20px;
+
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Phone*/
+
+
+
+@media screen and (max-width: 800px){
+	#secondaryNav a:hover{
+	color:yellow;
+}
+#secondaryNav{
+	background-color: #707372;
+	width: 100%;
+	display: inline-block;
+	padding: 10px 0 20px 0;
+
+	grid-area: 2 / 1 / 3 / -1;
+}
+#secondaryNav a{
+	font-size: 15px;
+	color: white;
+	margin-left: 20px;
+	text-decoration: none;
+	padding-left: 20px;
+	grid-area: 2 / 1 / 3 / -1;
+}
+#secondaryNav li{
+	float: left;
+	list-style-type: none;
+}
+#secondaryNav ul{
+	padding-bottom: 5px; 
+	float: left;
+	padding-right: 10px;
+	margin: 0;
+}
+#secondaryNav form{
+	color: skyblue;
+	float: left;
+	padding-top: 25px;
+	padding-left: 63px;
+	margin-left: 25px; 
+}
+
+#firstpage main{
+	
+	background-color: khaki;
+	padding: 10px;
+	grid-area: 3 / 1 / 10 / -1;
+	display: grid;
+	grid-template-columns: repeat(5, 1fr);
+}
+	#simple{
+	background-image: url(../img/imag.png);
+	/*Image source:http://pic1.win4000.com/wallpaper/2020-03-19/5e72cde93b965.jpg*/
+	grid-area: 3 / 1 / 4 / -1;
+}
+#firstpage aside{
+	margin-right: 20%;
+	margin-left: 20%;
+	padding-top: 10%;
+	font-weight: bold;
+}
+#firstpage #content-section{
+	border-style: solid ;
+	border-color: white;
+	background-color:steelblue;
+	grid-area: 4 / 1 / 5 / -1;
+}
+#firstpage #first{
+	width: 100%;
+	border-style: solid ;
+	border-color: white;
+	min-height: 100px;
+	background-color:pink;
+	grid-area: 5 / 1 / 6 / -1;
+}
+#firstpage #first h3{
+	margin-right: 20%;
+	margin-left: 37%;
+}
+#firstpage #second{
+	border-style: solid;
+	border-color: white;
+	min-height: 300px;
+	background-color:grey;
+	grid-area: 6 / 1 / 7 / -1;
+
+}
+#firstpage #second h3{
+	margin-left: 38%;
+}
+#firstpage #last{
+	border-style: solid ;
+	border-color: white;
+	min-height: 150px;
+	background-color:green;
+	grid-area: 7 / 1 / 8 / -1;
+}
+ #firstpage #a{
+	min-height: 250px;
+	background-color:white;
+	grid-area: 9 / 1 / 10 / -1;
+}
+#firstpage #a h2{
+	padding-left: 15px;
+	padding-top: 60px;
+	color: skyblue;
+}
+#firstpage #cost{
+	min-height: 300px;
+	background-color:white;
+	grid-area: 10 / 1 / 11 / -1;
+	float: left;
+}
+#firstpage #cost h2{
+	color: darkblue;
+	margin-left: 140px;
+}
+#firstpage #cost table{
+	margin-left: 38px;
+}
+#firstpage #cost table, th, td{
+	border: 1px solid black;
+	border-bottom: solid thin darkgreen;
+	border-collapse: collapse;
+}
+#firstpage #cost td{
+	padding: 2%;
+}
+ #firstpage #cost h4{
+   color:red;
+   font-weight: bold;
+
+}
+footer{
+	width:auto;
+	background-color: skyblue;
+	grid-area: 11 / 1 / 12 / 7;
+}
+footer nav{
+	float: left;
+}
+#footerNav a{
+	margin-top: 15px;
+	padding-top: 10px;
+	margin-left: 10px;
+	padding-left: 10px;
+	display: inline-block;
+	float: left;
+	text-decoration: none;
+	margin-right: 20px;
+
+}
+
+
+/*           Secondpage           */
+#secondpage main{
+	grid-area: 3 / 1 / 11 / -1;
+	display: grid;
+	grid-template-columns: repeat(5, 1fr);
+	background-color: khaki;
+	padding: 10px;
+}
+
+#secondpage #check {
+	grid-area: 3 / 1 / 5 / -1;
+	padding-left: 0px;
+	padding-top: 60px;
+}
+#secondpage #information{
+	grid-area: 5 / 1 / 8 / -1;
+	background-color: white;
+	color:red;
+	padding-top: 60px;
+	padding-left: 30px;
+}
+#secondpage #cost{
+	grid-area: 8 / 1 / 9 / -1;
+	padding-left: 50px;
+	background-color: white;
+	padding-top: 60px;
+}
+
+#secondpage #attention{
+	color:red;
+	padding-top: 50px;
+	grid-area: 9 / 1 / 11 / -1;
+	background-color: white;
+	padding-left: 30px;
+}
+
+
+
+
+
+
+/*         Thirdpage         */
+#thirdpage main{
+	grid-area: 3 / 1 / 12 / -1;
+	display: grid;
+	grid-template-columns: repeat(7, 1fr);
+	background-color: khaki;
+	padding: 10px;
+}
+
+#thirdpage #imag2{
+	margin: 0px;
+	grid-area: 3 / 1 / 4 / -1;
+	width: 230px;
+	height: 100px;
+	margin-left: 0px;
+}
+#thirdpage #imag3{
+	margin:0px;
+	grid-area: 4 / 1 / 5 / -1;
+	width: 230px;
+	height: 100px;
+	margin-left: 30px;
+
+}
+
+#thirdpage #tra{
+	
+	border-style: solid;
+	border-color: lightgreen;
+	grid-area: 5 / 1 / 7 / -1;
+	height: 350px;
+	background-color: white;
+}
+#thirdpage #tra p{
+	margin-left: 10px;
+	margin-right: 10px;
+	font-size: 15px;
+}
+
+
+#thirdpage #wild{
+
+	border-style: solid;
+	border-color: orange;
+	grid-area: 7 / 1 / 9 / -1;
+	height: 350px;
+	background-color: white;
+}
+#thirdpage #wild p{
+	text-align: center;
+	display: flex;
+	margin-left: 10px;
+	margin-right: 10px;
+	font-size: 15px;
+}
+
+#thirdpage #date{
+	border-style: solid;
+	border-color: red;
+	grid-area: 9 / 1 / 12 / -1;
+	height:340px;
+	background-color: white;
+}
+#thirdpage #date p{
+	text-align: center;
+	display: flex;
+	margin-left: 10px;
+	margin-right: 10px;
+	font-size: 15px;
+}
+#thirdpage #date h4{
+	color:red;
+	margin-left: 30px;
+}
+#thirdpage footer{
+	width:auto;
+	background-color: skyblue;
+	grid-area: 12 / 1 / 13 / -1;
+}
+#thirdpage footer nav{
+	float: right;
+}
+#thirdpage #footerNav a{
+	float: left;
+	text-decoration: none;
+	margin-right: 20px;
+
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

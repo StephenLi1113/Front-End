@@ -1,0 +1,201 @@
+body {
+	margin: auto;
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	width: 1200px;
+
+}
+header a:hover{
+	color:#F2AC00;
+}
+#secondaryNav a:hover{
+	color:yellow;
+}
+#primaryNav a:hover{
+	color: #F2AC00;
+	background-color: black;
+}
+#footerNav a:hover{
+	color: yellow;
+	background-color: black;
+}
+
+header{
+	min-height: 120px;
+}
+#secondaryNav{
+	background-color: #707372;
+	width: 1200px;
+	display: inline-block;
+	padding: 10px 0 10px 0;
+}
+#secondaryNav a{
+	font-size: 13px;
+	color: white;
+	margin-left: 30px;
+	text-decoration: none;
+}
+#secondaryNav li{
+	float: left;
+	list-style-type: none;
+}
+#secondaryNav ul{
+	float: right;
+	padding-right: 10px;
+	margin: 0;
+}
+form{
+	padding: 20px;
+	float:right;
+}
+#keywordBox{
+	width: 180px;
+	border-radius: 8px;
+	height: 22px;
+	margin: 0;
+
+
+}
+label{
+	font-size: 18px;
+}
+main{
+	background-image: url(../img/dalfcs.jpg);
+	background-repeat: no-repeat;
+	width: 1200px;
+	padding-top:100px;
+	margin: 0;
+	margin-top: 0;
+	overflow: auto;
+}
+h1 a{
+	text-decoration: none;
+	width: 450px;
+	float:left;
+	color: black;
+	padding: 10px;
+}
+
+#primaryNav{
+	position:sticky; 
+	top: 0;
+	width:1200px;
+	height: 20px;
+	background-color: #e3e5e8;
+	padding: 10px 0 19px 0;	
+}
+#primaryNav a{
+	color: black;
+	font-weight: bold;
+	text-decoration: none;
+	
+}
+#primaryNav li{
+	float: left;
+	margin:0;
+	margin-right: 30px;
+	list-style-type: none;
+	
+}
+#primaryNav ul{
+	float: left;
+	padding: 6px;
+	margin: 0;
+	
+}
+#content {
+	padding: 60px 5px 460px 20px;
+	background-color: white;
+	width:80%;
+	margin: auto;
+	border: 1px solid white;
+}
+#grading {
+	float:right;
+}
+#aboutCourse{
+	float:left;
+	width:71%;
+}
+#details{
+	float:left;
+}
+#exams{
+	float:left;
+}
+#assignments{
+	float:left;
+}
+#grading{
+	width: 25%;
+	float:right;
+
+}
+#contact{
+	float:left;
+}
+
+h3{
+	color:#FaAC00;
+}
+h2{
+	color:#FaAC00;
+}
+table{
+	float: left;
+}
+table, th, td{
+	border: 1px solid white;
+	border-bottom: solid thin darkgreen;
+	border-collapse: collapse;
+}
+th,td{
+	padding: 9px;
+}
+th{
+
+	background-color: #2382e8;
+	color:white;
+}
+table tr:nth-child(odd){
+	 background-color: lightgrey;
+}
+footer{
+	background-color: black;
+	color: white;
+	height: 150px;
+	float:right;
+	margin-top:230px;
+	width:1200px;
+	font-size: 13px;
+
+}
+#copyright{
+	float:left;
+	padding-top: 50px;
+	padding-left: 0;
+	
+}
+#footerNav{
+	float: right;
+}
+#footerNav a{
+	float: left;
+	color: white;
+	text-decoration: none;
+	margin-right: 25px;
+	margin-left: 10px;
+	padding-top: 50px;
+	padding-right: 0px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
